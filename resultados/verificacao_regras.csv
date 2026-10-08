@@ -1,0 +1,28 @@
+caso,descricao,etapa,esperado,obtido_gx,obtido_oraculo,gx_ok,oraculo_ok
+C01,registro valido,T1,-,-,-,True,True
+C01,registro valido,T2,-,-,-,True,True
+C02,municipio nulo,T1,R_CPL,R_CPL,R_CPL,True,True
+C02,municipio nulo,T2,R_CPL,R_CPL,R_CPL,True,True
+C04,codigo inexistente,T1,R_CNF,R_CNF,R_CNF,True,True
+C04,codigo inexistente,T2,R_CNF,R_CNF,R_CNF,True,True
+C05,codigo com 5 digitos,T1,R_CNF,R_CNF,R_CNF,True,True
+C05,codigo com 5 digitos,T2,R_CNF,R_CNF,R_CNF,True,True
+C06,data impossivel,T1,R_VAL,R_VAL,R_VAL,True,True
+C06,data impossivel,T2,R_VAL,R_VAL,R_VAL,True,True
+C07,data em formato diferente,T1,R_VAL,R_VAL,R_VAL,True,True
+C07,data em formato diferente,T2,R_VAL,R_VAL,R_VAL,True,True
+C08,inicio dos sintomas apos notificacao,T1,R_VAL,R_VAL,R_VAL,True,True
+C08,inicio dos sintomas apos notificacao,T2,R_VAL,R_VAL,R_VAL,True,True
+C09,datas iguais (limite admitido),T1,-,-,-,True,True
+C09,datas iguais (limite admitido),T2,-,-,-,True,True
+C10,data do evento ausente: R_VAL nao aplicavel,T1,-,-,-,True,True
+C10,data do evento ausente: R_VAL nao aplicavel,T2,-,-,-,True,True
+C11,chave repetida (1/2),T1,R_UNI,R_UNI,R_UNI,True,True
+C11,chave repetida (1/2),T2,R_UNI,R_UNI,R_UNI,True,True
+C12,chave repetida (2/2),T1,R_UNI,R_UNI,R_UNI,True,True
+C12,chave repetida (2/2),T2,R_UNI,R_UNI,R_UNI,True,True
+C13,repeticao com atributo da chave nulo (1/2),T1,-,-,-,True,True
+C13,repeticao com atributo da chave nulo (1/2),T2,-,-,-,True,True
+C14,repeticao com atributo da chave nulo (2/2),T1,-,-,-,True,True
+C14,repeticao com atributo da chave nulo (2/2),T2,-,-,-,True,True
+C15,inversao so na data tipada (Silver),T2,R_VAL,R_VAL,R_VAL,True,True

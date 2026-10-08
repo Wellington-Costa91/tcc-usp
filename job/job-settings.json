@@ -1,0 +1,97 @@
+{
+  "description": "Volume raw (.dbc) -> preparacao (extracao, diagnostico, limpeza) -> por lote: landing -> Bronze (com defeitos) -> T1 -> Silver -> T2 -> Gold. Great Expectations; Sinan chikungunya 2022-2024; 50 lotes.",
+  "email_notifications": {},
+  "environments": [
+    {
+      "environment_key": "e",
+      "spec": {
+        "client": "3",
+        "dependencies": [
+          "great_expectations==1.23.2",
+          "pyreaddbc==2.0.4"
+        ]
+      }
+    }
+  ],
+  "format": "MULTI_TASK",
+  "max_concurrent_runs": 1,
+  "name": "TCC - Experimento observabilidade da qualidade de dados (GX)",
+  "queue": {
+    "enabled": true
+  },
+  "tags": {
+    "experimento": "EXP-2026-10-04",
+    "projeto": "tcc-usp"
+  },
+  "tasks": [
+    {
+      "disabled": false,
+      "email_notifications": {},
+      "environment_key": "e",
+      "notebook_task": {
+        "notebook_path": "<PASTA_NO_WORKSPACE>/01_preparacao",
+        "source": "WORKSPACE"
+      },
+      "run_if": "ALL_SUCCESS",
+      "task_key": "t01_preparacao",
+      "timeout_seconds": 0
+    },
+    {
+      "depends_on": [
+        {
+          "task_key": "t01_preparacao"
+        }
+      ],
+      "disabled": false,
+      "email_notifications": {},
+      "environment_key": "e",
+      "notebook_task": {
+        "notebook_path": "<PASTA_NO_WORKSPACE>/02_verificacao_regras",
+        "source": "WORKSPACE"
+      },
+      "run_if": "ALL_SUCCESS",
+      "task_key": "t02_verificacao_regras",
+      "timeout_seconds": 0
+    },
+    {
+      "depends_on": [
+        {
+          "task_key": "t02_verificacao_regras"
+        }
+      ],
+      "disabled": false,
+      "email_notifications": {},
+      "environment_key": "e",
+      "notebook_task": {
+        "base_parameters": {
+          "limite_lotes": "0",
+          "modulo_tempo": "true"
+        },
+        "notebook_path": "<PASTA_NO_WORKSPACE>/03_execucao_lotes",
+        "source": "WORKSPACE"
+      },
+      "run_if": "ALL_SUCCESS",
+      "task_key": "t03_execucao_lotes",
+      "timeout_seconds": 0
+    },
+    {
+      "depends_on": [
+        {
+          "task_key": "t03_execucao_lotes"
+        }
+      ],
+      "disabled": false,
+      "email_notifications": {},
+      "environment_key": "e",
+      "notebook_task": {
+        "notebook_path": "<PASTA_NO_WORKSPACE>/04_avaliacao",
+        "source": "WORKSPACE"
+      },
+      "run_if": "ALL_SUCCESS",
+      "task_key": "t04_avaliacao",
+      "timeout_seconds": 0
+    }
+  ],
+  "timeout_seconds": 0,
+  "webhook_notifications": {}
+}

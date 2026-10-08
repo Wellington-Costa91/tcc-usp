@@ -1,0 +1,5 @@
+regra_id,dimensao,n_registros,n_aplicaveis,violacoes_oraculo,violacoes_gx,so_gx,so_oraculo,base,gerado_em
+R_CPL,completude,966987,966987,0,0,0,0,extraída 2022-2024,2026-10-04 21:32:49.804847
+R_CNF,conformidade,966987,966987,0,0,0,0,extraída 2022-2024,2026-10-04 21:32:49.804847
+R_VAL,validade,966987,966985,1,1,0,0,extraída 2022-2024,2026-10-04 21:32:49.804847
+R_UNI,unicidade,966987,964306,26301,26301,0,0,extraída 2022-2024,2026-10-04 21:32:49.804847

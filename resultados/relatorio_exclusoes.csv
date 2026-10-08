@@ -1,0 +1,7 @@
+ordem,condicao,registros,excluidos
+0,0. base extraida,966987,
+1,1. municipio presente (R_CPL),966987,0.0
+2,2. municipio no dominio IBGE (R_CNF),966987,0.0
+3,3. datas convertiveis e inicio dos sintomas <= notificacao (R_VAL),966984,3.0
+4,4. atributos da chave presentes (aplicabilidade R_UNI),964305,2679.0
+5,5. primeira ocorrencia de cada chave de conteudo (R_UNI),950915,13390.0
