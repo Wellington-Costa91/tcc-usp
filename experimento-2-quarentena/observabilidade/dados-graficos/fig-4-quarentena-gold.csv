@@ -1,0 +1,51 @@
+ordem,cenario_id,dimensao_do_defeito,n_silver,n_sinalizados,n_quarentena,sinalizados_na_gold,registros_na_gold,quarentena_igual_sinalizados,gold_sem_sinalizados,quarentena_mais_gold_igual_silver,quarentena_igual_oraculo,gold_igual_referencia,diferencas_gold_vs_referencia
+1,VAL-SLV,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+2,UNI-BRZ,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+3,COM-SLV,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0
+4,UNI-BRZ,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+5,UNI-BRZ,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+6,CON-BRZ,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+7,VAL-BRZ,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+8,UNI-SLV,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+9,CON-SLV,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+10,CONTROLE,Controle (sem defeito),950915,0,0,0,950915,true,true,true,true,true,0
+11,COM-SLV,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0
+12,VAL-BRZ,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+13,CONTROLE,Controle (sem defeito),950915,0,0,0,950915,true,true,true,true,true,0
+14,VALIMP-BRZ,Validade (data impossível),950915,19018,19018,0,931897,true,true,true,true,true,0
+15,VAL-BRZ,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+16,CONTROLE,Controle (sem defeito),950915,0,0,0,950915,true,true,true,true,true,0
+17,VALIMP-BRZ,Validade (data impossível),950915,19018,19018,0,931897,true,true,true,true,true,0
+18,VAL-BRZ,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+19,CON-BRZ,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+20,COM-BRZ,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0
+21,CON-BRZ,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+22,UNI-SLV,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+23,CON-BRZ,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+24,COM-SLV,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0
+25,CON-SLV,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+26,UNI-BRZ,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+27,CON-SLV,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+28,UNI-SLV,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+29,CONTROLE,Controle (sem defeito),950915,0,0,0,950915,true,true,true,true,true,0
+30,VALIMP-BRZ,Validade (data impossível),950915,19018,19018,0,931897,true,true,true,true,true,0
+31,COM-BRZ,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0
+32,VALIMP-BRZ,Validade (data impossível),950915,19018,19018,0,931897,true,true,true,true,true,0
+33,COM-BRZ,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0
+34,CONTROLE,Controle (sem defeito),950915,0,0,0,950915,true,true,true,true,true,0
+35,VAL-BRZ,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+36,COM-SLV,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0
+37,CON-SLV,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+38,UNI-SLV,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+39,VAL-SLV,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+40,COM-SLV,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0
+41,VAL-SLV,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+42,VAL-SLV,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+43,VAL-SLV,Validade,950915,19018,19018,0,931897,true,true,true,true,true,0
+44,CON-BRZ,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+45,COM-BRZ,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0
+46,UNI-SLV,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+47,VALIMP-BRZ,Validade (data impossível),950915,19018,19018,0,931897,true,true,true,true,true,0
+48,CON-SLV,Conformidade,950915,19018,19018,0,931897,true,true,true,true,true,0
+49,UNI-BRZ,Unicidade,969933,38036,38036,0,931897,true,true,true,true,true,0
+50,COM-BRZ,Completude,950915,19018,19018,0,931897,true,true,true,true,true,0

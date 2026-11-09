@@ -1,0 +1,11 @@
+arquivo,linhas,conteudo
+fig-1-execucao-job.csv,4,"tarefas do job: início, fim, duração (min) e resultado"
+fig-2-matriz-deteccao.csv,80,registros sinalizados por cenário × regra × ponto (soma de 5 lotes) e fração dos registros com defeito
+fig-3-linha-do-tempo-lotes.csv,50,"por lote: segundos desde o início até cada marco (Bronze, T1, alertas, Silver, T2, quarentena, início e fim da Gold)"
+fig-5a-duracao-lotes.csv,100,duração de cada lote com e sem verificação (s)
+fig-5b-composicao-tempo.csv,7,mediana do tempo por etapa (com verificação) e total com × sem verificação
+fig-4-quarentena-gold.csv,50,"por lote: sinalizados, em quarentena, sinalizados na Gold e as 5 conferências da quarentena"
+fig-6a-metadados-alertas.csv,90,todos os alertas emitidos
+fig-6b-metadados-eventos.csv,200,amostra de 200 eventos do lote 2 (unicidade)
+fig-6c-quarentena.csv,200,amostra de 200 registros em quarentena do lote 14 (data impossível)
+fig-7-data-impossivel.csv,200,amostra de 200 registros com data impossível na Silver (lote 14)

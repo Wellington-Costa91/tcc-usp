@@ -202,8 +202,8 @@ for xpos in (1.5, 3.5, 5.5):
 mostra(estilo(fig, 520, legenda=False), "fig-2-matriz-deteccao")
 leitura("cada cenário acende apenas a coluna da sua dimensão. Defeito introduzido na fonte aparece em T1 e continua "
         "visível em T2; defeito introduzido na transformação aparece só em T2. A linha de controle fica vazia: nenhum "
-        "registro válido foi sinalizado. ¹ Duplicatas reais criadas pela própria injeção de validade, confirmadas pelo "
-        "verificador independente (não são falsos positivos).")
+        "registro válido foi sinalizado. ¹ Duplicatas reais criadas pela própria injeção de validade, confirmadas pela "
+        "rotina de referência independente (não são falsos positivos).")
 
 # ------------------------------------------------------------------ 3. linha do tempo dos lotes
 secao(3, "O alerta chega antes do consumo? O pipeline parou?", "Linha do tempo de cada lote",

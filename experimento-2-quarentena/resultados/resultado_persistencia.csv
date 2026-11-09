@@ -1,0 +1,6 @@
+cenario_id,dimensao,ponto_injecao,regra_id,etapa,VP_total,FN_total,FP_total,VN_total,lotes,sensibilidade_mediana,sensibilidade_min,sensibilidade_max,precisao_mediana,precisao_min,precisao_max,especificidade_mediana,especificidade_min,especificidade_max,f1_mediana,f1_min,f1_max,taxa_fp_mediana,taxa_fp_min,taxa_fp_max
+UNI-BRZ,unicidade,T1,R_UNI,T2,190180,0,0,4659485,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0
+VALIMP-BRZ,validade,T1,R_VAL,T2,95090,0,0,4659485,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0
+CON-BRZ,conformidade,T1,R_CNF,T2,95090,0,0,4659485,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0
+COM-BRZ,completude,T1,R_CPL,T2,95090,0,0,4659485,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0
+VAL-BRZ,validade,T1,R_VAL,T2,95090,0,0,4659485,5,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0

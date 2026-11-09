@@ -1,0 +1,81 @@
+cenario_id,dimensao_do_defeito,origem_do_defeito,regra_id,etapa,registros_sinalizados,registros_com_defeito,fracao_sinalizada
+COM-BRZ,Completude,fonte,R_CNF,T1,0,95090,0.0
+COM-BRZ,Completude,fonte,R_CNF,T2,0,95090,0.0
+COM-BRZ,Completude,fonte,R_CPL,T1,95090,95090,1.0
+COM-BRZ,Completude,fonte,R_CPL,T2,95090,95090,1.0
+COM-BRZ,Completude,fonte,R_UNI,T1,0,95090,0.0
+COM-BRZ,Completude,fonte,R_UNI,T2,0,95090,0.0
+COM-BRZ,Completude,fonte,R_VAL,T1,0,95090,0.0
+COM-BRZ,Completude,fonte,R_VAL,T2,0,95090,0.0
+COM-SLV,Completude,transformação,R_CNF,T1,0,95090,0.0
+COM-SLV,Completude,transformação,R_CNF,T2,0,95090,0.0
+COM-SLV,Completude,transformação,R_CPL,T1,0,95090,0.0
+COM-SLV,Completude,transformação,R_CPL,T2,95090,95090,1.0
+COM-SLV,Completude,transformação,R_UNI,T1,0,95090,0.0
+COM-SLV,Completude,transformação,R_UNI,T2,0,95090,0.0
+COM-SLV,Completude,transformação,R_VAL,T1,0,95090,0.0
+COM-SLV,Completude,transformação,R_VAL,T2,0,95090,0.0
+CON-BRZ,Conformidade,fonte,R_CNF,T1,95090,95090,1.0
+CON-BRZ,Conformidade,fonte,R_CNF,T2,95090,95090,1.0
+CON-BRZ,Conformidade,fonte,R_CPL,T1,0,95090,0.0
+CON-BRZ,Conformidade,fonte,R_CPL,T2,0,95090,0.0
+CON-BRZ,Conformidade,fonte,R_UNI,T1,0,95090,0.0
+CON-BRZ,Conformidade,fonte,R_UNI,T2,0,95090,0.0
+CON-BRZ,Conformidade,fonte,R_VAL,T1,0,95090,0.0
+CON-BRZ,Conformidade,fonte,R_VAL,T2,0,95090,0.0
+CON-SLV,Conformidade,transformação,R_CNF,T1,0,95090,0.0
+CON-SLV,Conformidade,transformação,R_CNF,T2,95090,95090,1.0
+CON-SLV,Conformidade,transformação,R_CPL,T1,0,95090,0.0
+CON-SLV,Conformidade,transformação,R_CPL,T2,0,95090,0.0
+CON-SLV,Conformidade,transformação,R_UNI,T1,0,95090,0.0
+CON-SLV,Conformidade,transformação,R_UNI,T2,0,95090,0.0
+CON-SLV,Conformidade,transformação,R_VAL,T1,0,95090,0.0
+CON-SLV,Conformidade,transformação,R_VAL,T2,0,95090,0.0
+CONTROLE,Controle (sem defeito),,R_CNF,T1,0,0,
+CONTROLE,Controle (sem defeito),,R_CNF,T2,0,0,
+CONTROLE,Controle (sem defeito),,R_CPL,T1,0,0,
+CONTROLE,Controle (sem defeito),,R_CPL,T2,0,0,
+CONTROLE,Controle (sem defeito),,R_UNI,T1,0,0,
+CONTROLE,Controle (sem defeito),,R_UNI,T2,0,0,
+CONTROLE,Controle (sem defeito),,R_VAL,T1,0,0,
+CONTROLE,Controle (sem defeito),,R_VAL,T2,0,0,
+UNI-BRZ,Unicidade,fonte,R_CNF,T1,0,190180,0.0
+UNI-BRZ,Unicidade,fonte,R_CNF,T2,0,190180,0.0
+UNI-BRZ,Unicidade,fonte,R_CPL,T1,0,190180,0.0
+UNI-BRZ,Unicidade,fonte,R_CPL,T2,0,190180,0.0
+UNI-BRZ,Unicidade,fonte,R_UNI,T1,190180,190180,1.0
+UNI-BRZ,Unicidade,fonte,R_UNI,T2,190180,190180,1.0
+UNI-BRZ,Unicidade,fonte,R_VAL,T1,0,190180,0.0
+UNI-BRZ,Unicidade,fonte,R_VAL,T2,0,190180,0.0
+UNI-SLV,Unicidade,transformação,R_CNF,T1,0,190180,0.0
+UNI-SLV,Unicidade,transformação,R_CNF,T2,0,190180,0.0
+UNI-SLV,Unicidade,transformação,R_CPL,T1,0,190180,0.0
+UNI-SLV,Unicidade,transformação,R_CPL,T2,0,190180,0.0
+UNI-SLV,Unicidade,transformação,R_UNI,T1,0,190180,0.0
+UNI-SLV,Unicidade,transformação,R_UNI,T2,190180,190180,1.0
+UNI-SLV,Unicidade,transformação,R_VAL,T1,0,190180,0.0
+UNI-SLV,Unicidade,transformação,R_VAL,T2,0,190180,0.0
+VAL-BRZ,Validade,fonte,R_CNF,T1,0,95090,0.0
+VAL-BRZ,Validade,fonte,R_CNF,T2,0,95090,0.0
+VAL-BRZ,Validade,fonte,R_CPL,T1,0,95090,0.0
+VAL-BRZ,Validade,fonte,R_CPL,T2,0,95090,0.0
+VAL-BRZ,Validade,fonte,R_UNI,T1,78,95090,0.00082
+VAL-BRZ,Validade,fonte,R_UNI,T2,78,95090,0.00082
+VAL-BRZ,Validade,fonte,R_VAL,T1,95090,95090,1.0
+VAL-BRZ,Validade,fonte,R_VAL,T2,95090,95090,1.0
+VAL-SLV,Validade,transformação,R_CNF,T1,0,95090,0.0
+VAL-SLV,Validade,transformação,R_CNF,T2,0,95090,0.0
+VAL-SLV,Validade,transformação,R_CPL,T1,0,95090,0.0
+VAL-SLV,Validade,transformação,R_CPL,T2,0,95090,0.0
+VAL-SLV,Validade,transformação,R_UNI,T1,0,95090,0.0
+VAL-SLV,Validade,transformação,R_UNI,T2,0,95090,0.0
+VAL-SLV,Validade,transformação,R_VAL,T1,0,95090,0.0
+VAL-SLV,Validade,transformação,R_VAL,T2,95090,95090,1.0
+VALIMP-BRZ,Validade (data impossível),fonte,R_CNF,T1,0,95090,0.0
+VALIMP-BRZ,Validade (data impossível),fonte,R_CNF,T2,0,95090,0.0
+VALIMP-BRZ,Validade (data impossível),fonte,R_CPL,T1,0,95090,0.0
+VALIMP-BRZ,Validade (data impossível),fonte,R_CPL,T2,0,95090,0.0
+VALIMP-BRZ,Validade (data impossível),fonte,R_UNI,T1,100,95090,0.001052
+VALIMP-BRZ,Validade (data impossível),fonte,R_UNI,T2,100,95090,0.001052
+VALIMP-BRZ,Validade (data impossível),fonte,R_VAL,T1,95090,95090,1.0
+VALIMP-BRZ,Validade (data impossível),fonte,R_VAL,T2,95090,95090,1.0

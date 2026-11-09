@@ -1,0 +1,6 @@
+command: ["streamlit", "run", "app.py"]
+env:
+  - name: WAREHOUSE_ID
+    valueFrom: sql-warehouse
+  - name: SCHEMA
+    value: "well_costa_classic_stable_catalog.tcc_dq_exp2"

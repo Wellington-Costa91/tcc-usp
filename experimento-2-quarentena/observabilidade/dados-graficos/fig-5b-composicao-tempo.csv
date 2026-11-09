@@ -1,0 +1,8 @@
+execucao,etapa,mediana_s
+com verificações,Ingestão Bronze,7.392
+com verificações,Verificação T1,45.096
+com verificações,Alertas e Silver,7.623
+com verificações,Verificação T2,12.751
+com verificações,"Alerta T2, quarentena e Gold",9.278
+com verificações,TOTAL (mediana do lote),81.642
+sem verificações,TOTAL (mediana do lote),10.093

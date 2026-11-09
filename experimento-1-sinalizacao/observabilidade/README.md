@@ -8,7 +8,21 @@ app/        Databricks App (Streamlit + Plotly) que monta as figuras a partir do
 figuras/    figuras exportadas do app (PNG, alta resolução)
 dados/      tabelas usadas pelo app que não estão em ../resultados/
 sql/        criação das tabelas derivadas obs_gold_afetada e obs_job_tarefas
+dados-graficos/  um CSV por figura, com exatamente os dados plotados (ver INDICE.csv)
 ```
+
+## Dados dos gráficos (para montar outros dashboards)
+
+Cada figura tem um CSV em `dados-graficos/` com o mesmo nome (`fig-2-matriz-deteccao.png` ↔
+`fig-2-matriz-deteccao.csv`). `INDICE.csv` descreve cada arquivo. Os CSVs bastam para refazer os gráficos em
+qualquer ferramenta (Excel, Power BI, Lakeview, Python), sem depender do app. Para regerar:
+
+```
+python3 ../../ferramentas/gerar-dados-graficos.py well_costa_classic_stable_catalog.tcc_dq_exp EXP-2026-10-04 dados-graficos
+```
+
+Na `fig-2`, `fracao_sinalizada` é a razão entre os registros sinalizados e os registros com defeito do cenário;
+valores pequenos fora da regra do cenário são as sinalizações secundárias (seção 4.3 do TCC).
 
 ## Figuras
 
