@@ -37,6 +37,7 @@ notebooks/    código executado no Databricks (idêntico ao da execução de ref
 job/          definição do job (4 tarefas encadeadas, serverless)
 resultados/   tabelas exportadas da execução (matrizes, precedência, rastreabilidade, manifestos)
 evidencias/   capturas de tela da execução
+observabilidade/ app de observabilidade, figuras e dados de apoio (acrescentado em 2026-11-09)
 docs/         diagrama da arquitetura (.drawio editável e .png)
 SHA256SUMS    hashes dos arquivos de dados
 ```
@@ -82,6 +83,10 @@ Databricks em AWS, Runtime 19.9.x, Apache Spark 4.2.0, Python 3.12.3).
 Os resultados ficam nas tabelas do schema e são exportados como CSV para o volume `resultados`.
 
 ## Observações
+
+- A versão citada no TCC é o commit `9b6ccbc`. A pasta `observabilidade/` e os arquivos
+  `resultados/aplicabilidade.csv` e `resultados/efeitos_secundarios.csv` foram acrescentados depois, sem
+  alterar o experimento.
 
 - O notebook `03_execucao_lotes.py` tem um módulo opcional de medição de tempo (`modulo_tempo`). Essas
   medições não fazem parte da análise do TCC e não estão em `resultados/`.
