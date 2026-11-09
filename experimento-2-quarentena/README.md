@@ -46,3 +46,18 @@ schema por `tcc_dq_exp2`. Para regerar `dados-graficos/`:
 ```
 python3 ../ferramentas/gerar-dados-graficos.py well_costa_classic_stable_catalog.tcc_dq_exp2 EXP-2026-11-09 observabilidade/dados-graficos --quarentena
 ```
+
+## Figuras e dados de cada gráfico
+
+| Figura (`observabilidade/figuras/`) | Dados (`observabilidade/dados-graficos/`) | O que mostra |
+|---|---|---|
+| `fig-1-execucao-job.png` | `fig-1-execucao-job.csv` | as 4 tarefas do job |
+| `fig-2-matriz-deteccao.png` | `fig-2-matriz-deteccao.csv` | fração dos registros com defeito sinalizada por regra e ponto |
+| `fig-3-linha-do-tempo-lotes.png` | `fig-3-linha-do-tempo-lotes.csv` | etapas, alertas, quarentena e Gold em cada lote |
+| `fig-4-quarentena-gold.png` | `fig-4-quarentena-gold.csv` | sinalizados × em quarentena × na Gold, por dimensão |
+| `fig-4b-conferencias-quarentena.png` | `fig-4-quarentena-gold.csv` | as 5 conferências da quarentena (lotes que atendem) |
+| `fig-5-custo-tempo.png` | `fig-5a-duracao-lotes.csv`, `fig-5b-composicao-tempo.csv` | tempo por etapa, com × sem verificação |
+| `fig-6a-metadados-alertas.png` | `fig-6a-metadados-alertas.csv` | alertas emitidos |
+| `fig-6b-metadados-eventos.png` | `fig-6b-metadados-eventos.csv` | eventos por registro (lote 2) |
+| `fig-6c-quarentena.png` | `fig-6c-quarentena.csv` | registros em quarentena (lote 14) |
+| `fig-7-data-impossivel.png` | `fig-7-data-impossivel.csv` | datas impossíveis preservadas na Silver (lote 14) |

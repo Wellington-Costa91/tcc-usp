@@ -284,8 +284,8 @@ secao(5, "Quanto custa a observabilidade?", "Composição do tempo de um lote",
       "executado sem verificação.")
 etp = pd.DataFrame({"Ingestão Bronze": lotes.bronze, "Verificação T1": lotes.t1 - lotes.bronze,
                     "Alertas e Silver": lotes.silver - lotes.t1, "Verificação T2": lotes.t2 - lotes.silver,
-                    "Alerta T2 e Gold": lotes.g1 - lotes.t2}).median()
-cores = {"Ingestão Bronze": CINZA_CL, "Verificação T1": AZUL, "Alertas e Silver": CINZA, "Verificação T2": AZUL, "Alerta T2 e Gold": GRAFITE}
+                    "Alerta T2, quarentena e Gold": lotes.g1 - lotes.t2}).median()
+cores = {"Ingestão Bronze": CINZA_CL, "Verificação T1": AZUL, "Alertas e Silver": CINZA, "Verificação T2": AZUL, "Alerta T2, quarentena e Gold": GRAFITE}
 Y = ["Com verificações", "Sem verificações"]
 fig = go.Figure()
 for nome, v in etp.items():
